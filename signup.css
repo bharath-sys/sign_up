@@ -1,0 +1,346 @@
+div{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: white;
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 150px 700px;
+  color: #003d33;
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+}
+.top_bar{
+  position: fixed;
+  z-index: 1;
+  width:100%;
+  height: 14%;
+  grid-area: 1/1/2/3;
+  color: white;
+  text-align: center;
+  background: #00675b;
+}
+.heading1{
+  text-align: left;
+  font-weight:lighter;
+  font-size:2em;
+  padding-bottom:0px;
+  position: relative;
+  left:20px;
+
+}
+.search_bar{
+  position: relative;
+  top:-70px;
+  left: -330px;
+}
+.top_bar_elements{
+  position: relative;
+  top:-140px;
+  left: 600px;
+
+}
+.top_bar .top_bar_elements ul li:hover{
+  color: black;
+}
+ li{
+  float: left;
+  list-style-type: none;
+  padding-left: 50px;
+  color: white;
+  font-size: 1.2em;
+  font-weight:lighter;
+}
+li:hover{
+  color: black;
+}
+.s_icon{
+  top:-96px;
+  left:-130px;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+#Serachbar{
+  width: 30%;
+  border: 2px solid gray;
+  border-radius: 8px;
+  background: white;
+  color: black;2
+}
+.icon{
+  position: relative;
+  right:600px;
+}
+.sign_in{
+  position: relative;
+  top:-140px;
+  left:500px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+::placeholder{
+
+}
+#loaderImage{
+  position: relative;
+  bottom: 400px;
+  left:60px;
+}
+#no{
+  color: white;
+}
+.image{
+  grid-area: 2/1/3/2;
+  position: relative;
+  bottom:60px;
+  padding-bottom: 0px;
+
+    background: #009688;
+  /* animation-name: expand;
+  animation-duration: 1s;
+  animation-iteration-count: infinite; */
+}
+img{
+
+  opacity: 0.7;
+}
+.one{
+  font-style: italic;
+  color: white;
+  font-weight: lighter;
+  font-size: 2.5em;
+  position: relative;
+  top:-645px;
+  bottom: 0px;
+  left:580px;
+  right: 0px;
+  display: inline;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  opacity: 0.4;
+}
+.two{
+  font-style: italic;
+  color: white;
+  font-weight: lighter;
+  font-size: 2.5em;
+  left: 80px;
+  position: relative;
+  top:-610px;
+  bottom: 0px;
+  right: 0px;
+  display: inline;
+  text-shadow:0 0 10px black;
+
+
+}
+@keyframes expand {
+  0%{color: Transparent}
+  25%{color: white}
+  50%{color: Transparent}
+  75%{color: white}
+  100%{color: Transparent}
+}
+
+
+.container{
+  top:0px;
+  grid-area: 2/2/3/3;
+  position: relative;
+  left:90px;
+      width:60%;
+      height: 70vh;
+      /* background: #42a5f5; */
+}
+.heading{
+  position: relative;
+  margin-top: -50px;
+  padding-top:0px;
+  text-align:center;
+  right: -30px;
+}
+.user_id{
+position: relative;
+left: -30px;
+bottom: 50px;
+}
+.user_pass{
+  position:relative;
+  left: -30px;
+  bottom:20px;
+}
+.log_in{
+  position: absolute;
+  bottom:30px;
+  right:250px;
+}
+.sign_up{
+  position: absolute;
+  bottom:30px; left: 250px;
+}
+button{
+  background: #0077c2;
+  background: Transparent;
+  border: 2px solid white;
+  padding: 5px 20px;
+  color:white;
+  font-weight: lighter;
+  font-size: 1em;
+}
+#btn{
+  top:260px;
+  left:70px;
+  position: relative;
+  background:#003d33;
+  /* background: Transparent; */
+  border: 3px solid grey;
+  padding: 5px 20px;
+  color:#fff;
+  font-size: 1em;
+}
+button:hover{
+  border: 4px solid #003d33;
+}
+label{
+  color: white;
+  font-weight: lighter;
+}
+input{
+  position: relative;
+  left: -50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1em;
+  width:140%;
+  outline: none;
+  border:none;
+  border-bottom: 2px solid grey;
+  background: Transparent;
+  color: black;
+}
+input:hover{
+  border-bottom: 2px solid grey;
+}
+select{
+  outline: none
+  border: none;
+  color: grey;
+  font-size: 1.1em;
+  position: relative;
+  margin-top: 5px;
+  left:-50px;
+  width:90%;
+  height: 40px;
+  background: Transparent;
+  border-bottom: 2px solid white;
+}
+.Radio li{
+  padding-left: 20px;
+  list-style-type: none;
+  float: left;
+  font-weight: lighter;
+  color: grey;
+  position: relative;
+  top: 10px;
+  left:20px;
+}
+.Radio h3{
+  position: relative;
+  top: -20px;
+  left:-10px;
+  font-weight: lighter;
+  border-bottom: 2px solid grey;
+}
+.Radio{
+  position: relative;
+  left: -120px;
+
+}
+#student1{
+  position: absolute;
+  top:57%;
+  display:none;
+  width:100%;
+}
+#doctor1{
+  position: absolute;
+  top:57%;
+  width:100%;
+  display:none;
+}
+#others1{
+  position: absolute;
+  top:57%;
+  /* display:none; */
+  width:100%;
+}
+
+@media screen and (max-width:700px){
+  body{
+
+    width:400px;
+    height: 786px;
+  }
+  img{
+    width:400px;
+    height: 786px;
+  }
+  .container{
+        top:18%;
+        left:0%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        width:auto;
+        height: 70vh;
+        padding: 80px;
+        /* background: #42a5f5; */
+        border: 8px solid white;
+        border-radius: 10px;
+  }
+  .user_id{
+  position: relative;
+  bottom: 50px;
+  }
+  .user_pass{
+    position:relative;
+    bottom:20px;
+  }
+  .log_in{
+    position: absolute;
+    bottom:30px; right:200px;
+  }
+  .sign_up{
+    position: absolute;
+    bottom:30px; left: 200px;
+  }
+  button{
+    background: #0077c2;
+    background: Transparent;
+    border: 4px solid white;
+    padding: 5px 20px;
+    color: white;
+  }
+  label{
+    color: white;
+    font-weight: lighter;
+  }
+  input{
+    background: Transparent;
+    color: black;
+  }
+
+}

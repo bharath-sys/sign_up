@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="signup.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c0510f9cc.js" crossorigin="anonymous"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="animate.js"></script>
+  </head>
+  <body>
+    <div class="image">
+      <img src="pexels-anna-shvets-3844581 (1).jpg" height="700px" width="760px" alt="">
+      <div id="loaderImage">
+      </div>
+      <div class="one">
+        <p>145:BPM</p>
+      </div>
+      <div class="two">
+        <h3>VTie-In</h3>
+        <p>Making communities healthier</p>
+      </div>
+    </div>
+
+    <div class="top_bar">
+      <div class="heading1">
+        <p>VTie-In</p>
+      </div>
+          <div class="search_bar">
+            <input id="Serachbar" placeholder="Serach" type="text" name="" value="">
+          </div>
+          <div class="s_icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="top_bar_elements">
+            <ul>
+              <li>Home</li>
+              <li>Contact</li>
+              <li>Support</li>
+            </ul>
+          </div>
+          <div class="sign_in">
+            <button type="button" name="button"><a href="index.html">Sign in</a></button>
+          </div>
+    </div>
+    <div class="container">
+      <div class="heading">
+        <h1>Create new account</h1>
+      </div>
+      <form class="" action="index.html" method="post">
+        <div class="first_name">
+          <input placeholder="First Name" type="text" name="" value="">
+        </div>
+        <div class="middle_name">
+          <input placeholder="Middle Name" type="text" name="" value="">
+        </div>
+        <div class="last_name">
+          <input placeholder="Last Name" type="text" name="" value="">
+        </div>
+        <div class="age">
+          <input placeholder="Age" type="number" name="" value="">
+        </div>
+        <div class="gender">
+          <select class="gender_" name="">
+                <option value="">Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+          </select>
+        </div>
+        <div class="Radio">
+          <ul>
+            <li><h3>Profession</h3></li>
+            <li><input onclick="myfunc()" id="button1" type="radio" name="ysorno" value="" >Doctor</li>
+            <li><input onclick="myfunc1()" id="button2" type="radio" name="ysorno" value="">Student</li>
+            <li><input onclick="myfunc2()" id="button3" type="radio" name="ysorno" value="" checked>Others</li>
+          </ul>
+        </div>
+        <div class="doctor" id="doctor1">
+          <div class="reg_num">
+            <input placeholder="Registration-Number" type="text" name="" value="">
+          </div>
+          <div class="aadhar_num">
+            <input placeholder="Aadhar Number" type="text" name="" value="">
+          </div>
+          <div class="hospital_name">
+            <input placeholder="Hospital Name" type="text" name="" value="">
+          </div>
+          <div class="present_add">
+            <input placeholder="Present Address" type="text" name="" value="">
+          </div>
+          <div class="permenant_add">
+            <input placeholder="Permenant Address" type="text" name="" value="">
+          </div>
+          <div class="mobile_num">
+            <input placeholder="Mobile Number" type="number" size="10" name="" value="">
+          </div>
+        </div>
+        <div class="student" id="student1">
+          <div class="college_name">
+            <input placeholder="Collage Name" type="text" name="" value="">
+          </div>
+          <div class="aadhar_num">
+            <input placeholder="Aadhar Number" type="text" name="" value="">
+          </div>
+          <div class="present_add">
+            <input placeholder="Present Address" type="text" name="" value="">
+          </div>
+          <div class="permenant_add">
+            <input placeholder="Permenant Address" type="text" name="" value="">
+          </div>
+          <div class="mobile_num">
+            <input placeholder="Mobile Number" type="number" size="10" name="" value="">
+          </div>
+        </div>
+        <div class="others" id="others1">
+          <div class="location_name">
+            <input placeholder="Location Name" type="text" name="" value="">
+          </div>
+          <div class="occupation">
+            <input placeholder="Occupation" type="text" name="" value="">
+          </div>
+          <div class="present_add">
+            <input placeholder="Present Address" type="text" name="" value="">
+          </div>
+          <div class="permenant_add">
+            <input placeholder="Permenant Address" type="text" name="" value="">
+          </div>
+          <div class="mobile_num">
+            <input placeholder="Mobile Number" type="number" size="10" name="" value="">
+          </div>
+        </div>
+        <div class="signup">
+          <button id="btn" type="button" name="button">Sign up</button>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
